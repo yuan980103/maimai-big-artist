@@ -1,0 +1,137 @@
+{
+  "workspaceKey": "maimai-public-demo-v2",
+  "orders": [
+    {
+      "id": "demo_order_classic_combo",
+      "date": "2099-07-15",
+      "label": "7 月 15 日",
+      "title": "人气经典随心配",
+      "lines": [
+        {
+          "id": "demo_classic_combo",
+          "name": "人气经典随心配",
+          "quantity": 1,
+          "children": [
+            {
+              "id": "demo_double_beef_burger",
+              "name": "高达吉士双牛堡",
+              "quantity": 1,
+              "recipe": [
+                {
+                  "name": "上层面包",
+                  "color": "bun",
+                  "shape": "plainBunTop",
+                  "count": 1
+                },
+                {
+                  "name": "下层面包",
+                  "color": "bun",
+                  "shape": "bunBottom",
+                  "count": 1
+                },
+                {
+                  "name": "牛肉饼",
+                  "color": "beef",
+                  "shape": "singlePatty",
+                  "count": 2
+                },
+                {
+                  "name": "高达吉士片",
+                  "color": "cheese",
+                  "shape": "slice",
+                  "count": 1
+                },
+                {
+                  "name": "汉堡内番茄酱 · 固定形",
+                  "color": "sauce",
+                  "shape": "sauce",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "id": "demo_medium_cola",
+              "name": "可乐中杯",
+              "quantity": 1,
+              "recipe": [
+                {
+                  "name": "可乐液体",
+                  "color": "cola",
+                  "shape": "liquid",
+                  "count": 1
+                },
+                {
+                  "name": "中杯杯身",
+                  "color": "paper",
+                  "shape": "cup",
+                  "count": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo_order_february_wings",
+      "date": "2099-02-01",
+      "label": "2 月 1 日",
+      "title": "比翼双拼翅 + 鲜萃咖啡",
+      "lines": [
+        {
+          "id": "demo_wings_combo",
+          "name": "比翼双拼翅",
+          "quantity": 1,
+          "children": [
+            {
+              "id": "demo_honey_v_wing",
+              "name": "金翼双飞蜜汁风味薄皮V翅",
+              "quantity": 1,
+              "recipe": [
+                {
+                  "name": "蜜汁薄皮 V 翅",
+                  "color": "bun",
+                  "shape": "honeyVWing",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "id": "demo_spicy_wings",
+              "name": "麦辣鸡翅-2块",
+              "quantity": 1,
+              "recipe": [
+                {
+                  "name": "麦辣鸡翅",
+                  "color": "bun",
+                  "shape": "wing",
+                  "count": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "demo_brewed_coffee",
+          "name": "小杯鲜萃咖啡",
+          "quantity": 1,
+          "customization": "奶油球不要 / 白砂糖不要",
+          "recipe": [
+            {
+              "name": "鲜萃咖啡液体",
+              "color": "cola",
+              "shape": "liquid",
+              "count": 1
+            },
+            {
+              "name": "小杯杯身",
+              "color": "paper",
+              "shape": "cup",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

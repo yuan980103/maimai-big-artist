@@ -1,0 +1,16 @@
+{
+  "name": "maimai-big-artist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "麦当劳个人订单驱动的食物拼画 Skill",
+  "scripts": {
+    "test": "node tests/smoke-test.cjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "25.16.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "license": "MIT"
+}
